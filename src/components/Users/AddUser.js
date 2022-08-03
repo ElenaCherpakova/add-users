@@ -12,12 +12,10 @@ const AddUser = (props) => {
 
   const changeUserNameHandler = (event) => {
     setEnteredUserName(event.target.value)
-
   }
 
   const changeUserAgeHandler = (event) => {
     setEnteredUserAge(event.target.value)
-
   }
 
   const addUserHandler = (event) => {
